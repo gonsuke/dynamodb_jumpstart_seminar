@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import boto
 import time
-import sys
 from optparse import OptionParser
 
 conn = boto.connect_dynamodb()
