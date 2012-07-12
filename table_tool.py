@@ -53,8 +53,7 @@ def main():
     read_units = 3
     write_units = 5
     if args and len(args) == 2:
-        read_units = args[0]
-        write_units = args[1]
+        read_units, write_units = args
 
     if opts.create:
         create_tables(read_units, write_units)
